@@ -1,0 +1,188 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/my.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="navbar is-primary">      
+      <div class="navbar-brand">
+        <a href="/" class="navbar-item"><b>Zach Baylin</b></a>
+        <a href="https://github.com/zbaylin" class="navbar-item"><i class="fab fa-github"></i></a>
+        <a class="navbar-item" href="https://medium.com/@zbaylin"><i class="fab fa-medium-m"></i></a>
+        <a class="navbar-item" href="https://twitter.com/hcaznil"><i class="fab fa-twitter"></i></a>
+        <a class="navbar-item" href="https://www.linkedin.com/in/zachary-baylin-5800a4159/"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a href="#about-me" class="navbar-item">About Me</a>
+          <a href="#projects" class="navbar-item">Projects</a>
+        </div>
+      </div>      
+    </div>
+    <div id="main-section" class="section has-text-centered has-background-black has-text-white">
+      <h1 class="is-size-1"><p class="has-text-link">Hi!</p>I'm Zach Baylin</h1>
+      <h5 class="is-size-5"><i class="fas fa-globe-americas"></i> Atlanta, GA</h5>
+      <h5 class="is-size-5"><i class="fab fa-github"></i> <i class="fab fa-medium-m"></i> @zbaylin | <i class="fab fa-twitter"></i> @hcaznil</h5>
+      <h5 class="is-size-5"><i class="fas fa-building"></i> Founder & COO at Rolltrax LLC</h5>
+    </div>
+    <div id="about-me" class="section has-text-centered">
+      <h1 class="title">About Me</h1>
+      <div class="columns is-vcentered">
+        <div class="column is-one-fifth"></div>
+        <div class="column is-one-fifth">
+          <figure class="image is-256x256">
+            <img id="portrait" src="/assets/img/me.jpg" alt="Zach Baylin">
+          </figure>
+        </div>
+        <div class="column has-text-left">
+          I'm a 17 year old high school student in Atlanta, Georgia who is interested in Computer Science, Jazz Music (and Drumming), and 
+          Political Philosophy. When I was 16, I, along with two colleagues, formed a company called Rolltrax, which specializes in 
+          automating many of the day-to-day activities of a Work-Based Learning Coordinator. Since then, I have taken the role of Lead 
+          Developer alongside my friend <a href="http://ohad.space/">Ohad Rau</a> to develop and maintain Rolltrax. I have also worked as 
+          a Network Engineer for the largest school district in Georgia, Fulton County Schools. Outside of my CS career, I enjoy reading 
+          and debating political philosophy, and founded the Young Americans for Liberty chapter at my high school. I also am an avid 
+          Jazz fan (specifically jazz fusion), and have played drum set since I was seven years old. You can find some of my political
+          and musical musings at my <a href="https://medium.com/@zbaylin">Medium blog</a>.
+        </div>
+        <div class="column is-one-fifth"></div>
+      </div>
+    </div>
+    <div id="projects" class="section has-text-centered">
+      <h1 class="title">Projects</h1>
+      <h2 class="subtitle">Things I've made in my spare time</h2>
+      <div class="tile is-ancestor">
+        <div class="tile is-4 is-vertical is-parent">
+          <div class="tile is-child box">
+            <p class="title">bibliotech</p>
+            <div class="columns">
+              <div class="column is-one-third">
+                <figure class="image is-128x128">
+                  <img src="assets/img/books.png" alt="bibliotech">
+                </figure>
+              </div>
+              <div class="column">
+                <p>
+                  This was an app I developed as alongside two friends/developers. 
+                  It was designed to be part of the 2018 FBLA Mobile App Development 
+                  competition. It's primary job is to serve as a library management
+                  tool for both patrons and administrators of a library. The backend
+                  is written in <a href="https://ruby-lang.org">Ruby</a>, and the app
+                  itself is written in <a href="https://flutter.io">Flutter</a>
+                </p>
+                <br>
+                <a href="https://github.com/zbaylin/bibliotech" class="button">
+                  <i class="fab fa-github"></i>&nbsp;Find out more on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="tile is-child box">
+            <p class="title">Word Clock</p>
+            <div class="columns">
+              <div class="column is-one-third">
+                <figure class="image is-128x128">
+                  <img src="assets/img/word-clock.png" alt="Work Clock">
+                </figure>
+              </div>
+              <div class="column">
+                <p>
+                  For my girlfriend Lindsey's birthday, I decided I wanted to make
+                  a word clock. The project is based on an Arduino controlling an
+                  array of RGB LEDs that can be purchased from eBay. The C code I
+                  wrote for the Arduino dynamically generates a sentence that tells
+                  the time every five minutes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-4 is-vertical is-parent">
+          <div class="tile is-child box">
+            <p class="title">Rolltrax</p>
+              <div class="columns is-vcentered">
+                <div class="column is-one-third">
+                  <figure class="image is-128x128">
+                    <img src="assets/img/rolltrax-logo.svg" alt="Rolltrax">
+                  </figure>
+                </div>
+                <div class="column">
+                  <p>
+                    When I was a junior in high school, I joined my school's Work-Based Learning program 
+                    so I could continue my job as a Network Engineer for my school system. Very early on
+                    in the school year, the coordinator of the program indicated that he had long wanted
+                    a cloud-based attendance system, which would allow him to focus on the more crucial
+                    parts of his job. I whipped up a quick prototype in Python using Tk, and Rolltrax was
+                    born. It quickly grew into a much more advanced software toolkit, which allows complete
+                    management of the administrative tasks of a Work-Based Learning coordinator. Currently,
+                    the Rolltrax backend is written in <a href="https://crystal-lang.org/">Crystal</a>, and
+                    the web UI is written in React using the <a href="https://reasonml.github.io/en/">ReasonML</a>
+                    OCaml syntax. The mobile app (currently unreleased) is written in <a href="https://flutter.io">Flutter</a>.
+                  </p>
+                  <br>
+                  <a href="https://rolltrax.com" class="button">
+                    <img class="button-image" src="assets/img/rolltrax-icon.svg" alt="">&nbsp;Find out more on our website
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="tile is-4 is-vertical is-parent">
+          <div class="tile is-child box">
+            <p class="title">rofi-wifi-menu</p>
+            <div class="columns">
+              <div class="column is-one-third">
+                <figure class="image is-128x128">
+                  <img src="assets/img/wifi.png" alt="rofi-wifi-menu">
+                </figure>
+              </div>
+              <div class="column">
+                <p>
+                  This was one of my first forays into open-source. I was on a fairly
+                  barebones Linux distro with no GUI for changing WiFi networks. I wrote
+                  this shell script as an addon to the popular program <a href="https://github.com/DaveDavenport/rofi">rofi</a>.
+                </p>
+                <br>
+                <a href="https://github.com/zbaylin/rofi-wifi-menu" class="button">
+                  <i class="fab fa-github"></i>&nbsp;Find out more on GitHub
+                </a>
+              </div>
+            </div>
+        </div>
+        <div class="tile is-child box">
+          <p class="title">kiosk-rb</p>
+          <div class="columns">
+            <div class="column is-one-third">
+              <figure class="image is-128x128">
+                <img src="assets/img/desktop-computer.png" alt="kiosk-rb">
+              </figure>
+            </div>
+            <div class="column">
+              <p>
+                During my time as a Network Engineer at Fulton County Schools, I was tasked
+                with creating a kiosk system that allowed students to request repairs for their
+                faulty hardware/software. We wrote the kiosk in <a href="https://ruby-lang.org">Ruby</a>
+                and it has been deployed in numerous schools.
+              </p>
+              <br>
+              <a href="https://github.com/OhadRau/kiosk-rb" class="button">
+                <i class="fab fa-github"></i>&nbsp;Find out more on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="section has-text-centered">
+      <h1 class="title">Contact Me</h1>
+      <i class="fas fa-3x fa-at"></i>
+      <br>
+      <br>
+      <p>For any business inquiries, please contact <a href="mailto:me@zachbayl.in">me@zachbayl.in</a>.</p>
+    </div>
+    <div class="section has-text-centered" id="resume">
+      <h1 class="title">Résumé</h1>
+      
+    </div>
+  </body>
+</html>

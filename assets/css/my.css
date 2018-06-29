@@ -1,0 +1,12 @@
+#main-section {
+  background-image: url("/assets/img/code-bg.jpg");
+}
+
+#portrait {
+  width: 100%;
+  border-radius: .5em
+}
+
+.button-image {
+  height: 100%;
+}
